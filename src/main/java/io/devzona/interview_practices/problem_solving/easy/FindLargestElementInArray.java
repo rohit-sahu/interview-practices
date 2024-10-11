@@ -2,6 +2,10 @@ package io.devzona.interview_practices.problem_solving.easy;
 
 import java.util.Arrays;
 
+/**
+ * Given an array, we have to find the largest element in the array.
+ *
+ */
 public class FindLargestElementInArray {
 
     public static void main(String[] args) {
