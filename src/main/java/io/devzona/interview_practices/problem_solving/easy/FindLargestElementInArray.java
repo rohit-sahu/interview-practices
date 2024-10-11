@@ -13,7 +13,7 @@ public class FindLargestElementInArray {
         System.out.println("The Largest element in the array is: " + sort(arr2));
     }
 
-    static int sort(int[] arr) {
+    public static int sort(int[] arr) {
         Arrays.sort(arr);
         return arr[arr.length - 1];
     }
