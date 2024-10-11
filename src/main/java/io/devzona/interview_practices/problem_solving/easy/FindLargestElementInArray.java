@@ -33,6 +33,18 @@ public class FindLargestElementInArray {
         System.out.println("The Largest element in the array is: " + sort(arr2));
     }
 
+    /**
+     * Solution1: Sorting
+     * Intuition:
+     * We can sort the array in ascending order, hence the largest element will be at the last index of the array.
+     *
+     * Approach:
+     * Sort the array in ascending order.
+     * Print the (size of the array -1)th index.
+     *
+     * @param arr
+     * @return largest number
+     */
     public static int sort(int[] arr) {
         Arrays.sort(arr);
         return arr[arr.length - 1];
